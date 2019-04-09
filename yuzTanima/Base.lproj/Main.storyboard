@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="yuzTanima" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sakarya_Universitesi_Logosu_Dikey.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7le-by-1NN">
+                                <rect key="frame" x="53" y="102" width="269" height="125"/>
+                                <color key="backgroundColor" red="0.92922265974800955" green="0.96620899438858032" blue="0.77577150448586041" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="T1F-O1-BQN"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Örüntü Tanıma Uzaktan Eğitim  Dersi" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OCO-5M-6Cx">
+                                <rect key="frame" x="53" y="235" width="269" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="eKz-LO-Wmg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lütfen dikkat derste aktif olduğuzu belli etmek için  her 10 dakikada bir yüz tanıma  kontolü yaptırmanız gerekmektedir. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-49-wLO">
+                                <rect key="frame" x="75" y="517" width="240" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="seK-6w-70a"/>
+                                </constraints>
+                                <color key="textColor" red="0.9214189403553299" green="0.27481666169233659" blue="0.10516496254074208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ekran Resmi 2018-02-18 20.22.02.png" translatesAutoresizingMaskIntoConstraints="NO" id="axh-Vu-b93">
+                                <rect key="frame" x="0.0" y="52" width="59" height="661"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="1Lv-A8-e7B"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ekran Resmi 2018-02-18 20.25.15.png" translatesAutoresizingMaskIntoConstraints="NO" id="UrS-qg-MtG">
+                                <rect key="frame" x="315" y="63" width="60" height="641"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53G-yr-os6">
+                                <rect key="frame" x="89" y="400" width="196" height="30"/>
+                                <state key="normal" title="yüz tanıma kontrol "/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ebh-ht-2cm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pEs-49-wLO" firstAttribute="leading" secondItem="axh-Vu-b93" secondAttribute="trailing" constant="16" id="27r-B8-pGT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UrS-qg-MtG" secondAttribute="bottom" constant="74" id="33c-Id-1DJ"/>
+                            <constraint firstItem="OCO-5M-6Cx" firstAttribute="top" secondItem="7le-by-1NN" secondAttribute="bottom" constant="8" symbolic="YES" id="3mU-Lx-pa3"/>
+                            <constraint firstItem="53G-yr-os6" firstAttribute="leading" secondItem="axh-Vu-b93" secondAttribute="trailing" constant="30" id="7fB-IL-Qc0"/>
+                            <constraint firstItem="OCO-5M-6Cx" firstAttribute="centerX" secondItem="53G-yr-os6" secondAttribute="centerX" id="Gv9-XG-pfd"/>
+                            <constraint firstItem="UrS-qg-MtG" firstAttribute="leading" secondItem="53G-yr-os6" secondAttribute="trailing" constant="30" id="Nbc-Yw-s4L"/>
+                            <constraint firstItem="7le-by-1NN" firstAttribute="leading" secondItem="OCO-5M-6Cx" secondAttribute="leading" id="SBi-RG-wgI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pEs-49-wLO" secondAttribute="bottom" constant="164" id="XqF-8s-HuF"/>
+                            <constraint firstItem="UrS-qg-MtG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="f0z-eF-XlO"/>
+                            <constraint firstItem="53G-yr-os6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fH8-nT-0XQ"/>
+                            <constraint firstItem="7le-by-1NN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="hi2-se-nBQ"/>
+                            <constraint firstAttribute="trailing" secondItem="UrS-qg-MtG" secondAttribute="trailing" id="ijp-IA-scN"/>
+                            <constraint firstItem="7le-by-1NN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="jXN-vp-86W"/>
+                            <constraint firstItem="axh-Vu-b93" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="kI2-Gy-nOe"/>
+                            <constraint firstItem="7le-by-1NN" firstAttribute="trailing" secondItem="OCO-5M-6Cx" secondAttribute="trailing" id="kJe-er-W78"/>
+                            <constraint firstItem="pEs-49-wLO" firstAttribute="top" secondItem="53G-yr-os6" secondAttribute="bottom" constant="87" id="oQo-Up-wzQ"/>
+                            <constraint firstItem="axh-Vu-b93" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="txZ-Lh-v4G"/>
+                            <constraint firstItem="UrS-qg-MtG" firstAttribute="leading" secondItem="pEs-49-wLO" secondAttribute="trailing" id="vBf-Ri-o4p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="axh-Vu-b93" secondAttribute="bottom" constant="65" id="vRS-P6-qLh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="Rmz-wl-yyc" kind="show" identifier="Kontrol" id="oRA-oh-ywF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
+        </scene>
+        <!--Button Clicked View Controller-->
+        <scene sceneID="lWw-jU-8r4">
+            <objects>
+                <viewController id="Rmz-wl-yyc" customClass="buttonClickedViewController" customModule="yuzTanima" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1QU-bz-NrR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aa1c4e44c5ab6b265f3655dba6369dcf.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fxu-4h-pIb">
+                                <rect key="frame" x="67" y="82" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DdM-Gf-2PX"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0vZ-ly-cec">
+                                <rect key="frame" x="67" y="283" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="0hg-Nv-GqL"/>
+                                </constraints>
+                                <string key="text">Ad :      Fatih SÜMBÜL                      Numara: B141210351                              Bölüm: Bilgisayar Mühendisi                            Ders: Örüntü Tanıma                                                  Grup: 1-A                                                    </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green-checkmark-clip-art_p.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YpY-sv-o4A" customClass="w">
+                                <rect key="frame" x="54" y="433" width="240" height="128"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Derste aktifsiniz :)" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skk-e9-k8k">
+                                <rect key="frame" x="102" y="586" width="170" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WvE-Cw-P0C"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0vZ-ly-cec" firstAttribute="top" secondItem="fxu-4h-pIb" secondAttribute="bottom" constant="73" id="8EE-Pl-0aF"/>
+                            <constraint firstItem="fxu-4h-pIb" firstAttribute="leading" secondItem="xAh-1g-AgX" secondAttribute="leading" constant="67" id="EJc-5M-2gb"/>
+                            <constraint firstItem="0vZ-ly-cec" firstAttribute="centerX" secondItem="Skk-e9-k8k" secondAttribute="centerX" id="ITa-56-zDt"/>
+                            <constraint firstItem="Skk-e9-k8k" firstAttribute="top" secondItem="YpY-sv-o4A" secondAttribute="bottom" constant="25" id="JZU-uY-gJd"/>
+                            <constraint firstItem="YpY-sv-o4A" firstAttribute="leading" secondItem="xAh-1g-AgX" secondAttribute="leading" constant="54" id="Ylb-E0-ANz"/>
+                            <constraint firstItem="fxu-4h-pIb" firstAttribute="top" secondItem="xAh-1g-AgX" secondAttribute="top" constant="38" id="bE5-TG-ERB"/>
+                            <constraint firstItem="Skk-e9-k8k" firstAttribute="leading" secondItem="xAh-1g-AgX" secondAttribute="leading" constant="102" id="h3m-Za-GeX"/>
+                            <constraint firstItem="YpY-sv-o4A" firstAttribute="top" secondItem="0vZ-ly-cec" secondAttribute="bottom" constant="22" id="mRf-92-joC"/>
+                            <constraint firstItem="fxu-4h-pIb" firstAttribute="centerX" secondItem="1QU-bz-NrR" secondAttribute="centerX" id="n0R-ZA-EAP"/>
+                            <constraint firstItem="xAh-1g-AgX" firstAttribute="bottom" secondItem="Skk-e9-k8k" secondAttribute="bottom" constant="162" id="sw0-gg-lJA"/>
+                            <constraint firstItem="xAh-1g-AgX" firstAttribute="trailing" secondItem="YpY-sv-o4A" secondAttribute="trailing" constant="81" id="uce-cN-slY"/>
+                            <constraint firstItem="fxu-4h-pIb" firstAttribute="trailing" secondItem="0vZ-ly-cec" secondAttribute="trailing" id="uoD-Dj-LZa"/>
+                            <constraint firstItem="fxu-4h-pIb" firstAttribute="leading" secondItem="0vZ-ly-cec" secondAttribute="leading" id="vMU-nU-ksO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xAh-1g-AgX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIv-qg-LsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816.79999999999995" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ekran Resmi 2018-02-18 20.22.02.png" width="272" height="1800"/>
+        <image name="Ekran Resmi 2018-02-18 20.25.15.png" width="316" height="1748"/>
+        <image name="Sakarya_Universitesi_Logosu_Dikey.jpg" width="768" height="1024"/>
+        <image name="aa1c4e44c5ab6b265f3655dba6369dcf.jpg" width="371" height="481"/>
+        <image name="green-checkmark-clip-art_p.jpg" width="300" height="300"/>
+    </resources>
+</document>

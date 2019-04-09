@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F7706F20399389000528C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7706E20399389000528C0 /* AppDelegate.swift */; };
+		77F7707120399389000528C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7707020399389000528C0 /* ViewController.swift */; };
+		77F7707420399389000528C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F7707220399389000528C0 /* Main.storyboard */; };
+		77F7707620399389000528C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F7707520399389000528C0 /* Assets.xcassets */; };
+		77F7707920399389000528C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F7707720399389000528C0 /* LaunchScreen.storyboard */; };
+		77F770812039B212000528C0 /* buttonClickedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F770802039B212000528C0 /* buttonClickedViewController.swift */; };
+		77F770832039B8AA000528C0 /* aa1c4e44c5ab6b265f3655dba6369dcf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77F770822039B8AA000528C0 /* aa1c4e44c5ab6b265f3655dba6369dcf.jpg */; };
+		77F770852039B91A000528C0 /* Sakarya_Universitesi_Logosu_Dikey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77F770842039B91A000528C0 /* Sakarya_Universitesi_Logosu_Dikey.jpg */; };
+		77F770872039D6D5000528C0 /* green-checkmark-clip-art_p.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77F770862039D6D5000528C0 /* green-checkmark-clip-art_p.jpg */; };
+		77F770892039D6DB000528C0 /* whatsappta-kullanabileceginiz-23-arka-plan10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77F770882039D6DB000528C0 /* whatsappta-kullanabileceginiz-23-arka-plan10.jpg */; };
+		77F7708B2039EDD0000528C0 /* Ekran Resmi 2018-02-18 20.22.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F7708A2039EDD0000528C0 /* Ekran Resmi 2018-02-18 20.22.02.png */; };
+		77F7708F2039EEA9000528C0 /* Ekran Resmi 2018-02-18 20.25.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F7708E2039EEA9000528C0 /* Ekran Resmi 2018-02-18 20.25.15.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77F7706B20399389000528C0 /* yuzTanima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuzTanima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F7706E20399389000528C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F7707020399389000528C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F7707320399389000528C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F7707520399389000528C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F7707820399389000528C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F7707A20399389000528C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F770802039B212000528C0 /* buttonClickedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonClickedViewController.swift; sourceTree = "<group>"; };
+		77F770822039B8AA000528C0 /* aa1c4e44c5ab6b265f3655dba6369dcf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa1c4e44c5ab6b265f3655dba6369dcf.jpg; sourceTree = "<group>"; };
+		77F770842039B91A000528C0 /* Sakarya_Universitesi_Logosu_Dikey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sakarya_Universitesi_Logosu_Dikey.jpg; sourceTree = "<group>"; };
+		77F770862039D6D5000528C0 /* green-checkmark-clip-art_p.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-checkmark-clip-art_p.jpg"; sourceTree = "<group>"; };
+		77F770882039D6DB000528C0 /* whatsappta-kullanabileceginiz-23-arka-plan10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "whatsappta-kullanabileceginiz-23-arka-plan10.jpg"; sourceTree = "<group>"; };
+		77F7708A2039EDD0000528C0 /* Ekran Resmi 2018-02-18 20.22.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2018-02-18 20.22.02.png"; sourceTree = "<group>"; };
+		77F7708E2039EEA9000528C0 /* Ekran Resmi 2018-02-18 20.25.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2018-02-18 20.25.15.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F7706820399389000528C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F7706220399389000528C0 = {
+			isa = PBXGroup;
+			children = (
+				77F7706D20399389000528C0 /* yuzTanima */,
+				77F7706C20399389000528C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F7706C20399389000528C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F7706B20399389000528C0 /* yuzTanima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F7706D20399389000528C0 /* yuzTanima */ = {
+			isa = PBXGroup;
+			children = (
+				77F7708E2039EEA9000528C0 /* Ekran Resmi 2018-02-18 20.25.15.png */,
+				77F7708A2039EDD0000528C0 /* Ekran Resmi 2018-02-18 20.22.02.png */,
+				77F770882039D6DB000528C0 /* whatsappta-kullanabileceginiz-23-arka-plan10.jpg */,
+				77F770862039D6D5000528C0 /* green-checkmark-clip-art_p.jpg */,
+				77F770842039B91A000528C0 /* Sakarya_Universitesi_Logosu_Dikey.jpg */,
+				77F770822039B8AA000528C0 /* aa1c4e44c5ab6b265f3655dba6369dcf.jpg */,
+				77F7706E20399389000528C0 /* AppDelegate.swift */,
+				77F7707020399389000528C0 /* ViewController.swift */,
+				77F7707220399389000528C0 /* Main.storyboard */,
+				77F770802039B212000528C0 /* buttonClickedViewController.swift */,
+				77F7707520399389000528C0 /* Assets.xcassets */,
+				77F7707720399389000528C0 /* LaunchScreen.storyboard */,
+				77F7707A20399389000528C0 /* Info.plist */,
+			);
+			path = yuzTanima;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F7706A20399389000528C0 /* yuzTanima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F7707D20399389000528C0 /* Build configuration list for PBXNativeTarget "yuzTanima" */;
+			buildPhases = (
+				77F7706720399389000528C0 /* Sources */,
+				77F7706820399389000528C0 /* Frameworks */,
+				77F7706920399389000528C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yuzTanima;
+			productName = yuzTanima;
+			productReference = 77F7706B20399389000528C0 /* yuzTanima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F7706320399389000528C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SUMBUL;
+				TargetAttributes = {
+					77F7706A20399389000528C0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77F7706620399389000528C0 /* Build configuration list for PBXProject "yuzTanima" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F7706220399389000528C0;
+			productRefGroup = 77F7706C20399389000528C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F7706A20399389000528C0 /* yuzTanima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F7706920399389000528C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F770872039D6D5000528C0 /* green-checkmark-clip-art_p.jpg in Resources */,
+				77F770852039B91A000528C0 /* Sakarya_Universitesi_Logosu_Dikey.jpg in Resources */,
+				77F7707920399389000528C0 /* LaunchScreen.storyboard in Resources */,
+				77F7708B2039EDD0000528C0 /* Ekran Resmi 2018-02-18 20.22.02.png in Resources */,
+				77F7707620399389000528C0 /* Assets.xcassets in Resources */,
+				77F7707420399389000528C0 /* Main.storyboard in Resources */,
+				77F770832039B8AA000528C0 /* aa1c4e44c5ab6b265f3655dba6369dcf.jpg in Resources */,
+				77F7708F2039EEA9000528C0 /* Ekran Resmi 2018-02-18 20.25.15.png in Resources */,
+				77F770892039D6DB000528C0 /* whatsappta-kullanabileceginiz-23-arka-plan10.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F7706720399389000528C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F7707120399389000528C0 /* ViewController.swift in Sources */,
+				77F770812039B212000528C0 /* buttonClickedViewController.swift in Sources */,
+				77F7706F20399389000528C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77F7707220399389000528C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F7707320399389000528C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77F7707720399389000528C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F7707820399389000528C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F7707B20399389000528C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F7707C20399389000528C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F7707E20399389000528C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XQ9YN99NQ;
+				INFOPLIST_FILE = yuzTanima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihSumbul.yuzTanima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F7707F20399389000528C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XQ9YN99NQ;
+				INFOPLIST_FILE = yuzTanima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihSumbul.yuzTanima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F7706620399389000528C0 /* Build configuration list for PBXProject "yuzTanima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F7707B20399389000528C0 /* Debug */,
+				77F7707C20399389000528C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F7707D20399389000528C0 /* Build configuration list for PBXNativeTarget "yuzTanima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F7707E20399389000528C0 /* Debug */,
+				77F7707F20399389000528C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F7706320399389000528C0 /* Project object */;
+}
